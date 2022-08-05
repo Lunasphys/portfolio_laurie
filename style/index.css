@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'slkscrb';
+    src: url("../slkscr.ttf") format("truetype");
+}
+
+body {
+    border: 0;
+    padding: 0;
+    background: no-repeat url("../img/background1.png");
+    background-size: 100%;
+    color: white;
+
+}
+
+.starter {
+    text-align: center;
+    font-family: slkscrb, serif;
+    font-size: 52px;
+    margin-top: 16%;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.name {
+    margin-top: 0;
+    margin-bottom: 5%;
+}
