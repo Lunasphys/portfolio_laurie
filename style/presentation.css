@@ -5,3 +5,43 @@ body {
     background-size: 100%;
     color: white;
 }
+
+.navigation {
+margin: 4%;
+    display: flex;
+}
+
+.profil_picture {
+    width: 12%;
+}
+
+.ease {
+    background-color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -10px;
+    height: 10px;
+    -webkit-animation: anim 4s 500ms infinite normal ease-out forwards;
+    animation: anim 4s 500ms infinite normal ease-out forwards;
+}
+
+@-webkit-keyframes anim{
+    0% {width: 0px;}
+    100% {width: 250px;}
+}
+
+@keyframes anim{
+    0% {width: 0px;}
+    100% {width: 1400px;}
+
+}
+
+#cercle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
