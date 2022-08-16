@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'slkscrb';
+    src: url("../slkscr.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'arimob';
+    src: url("../arimo_bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'arimor';
+    src: url("../arimo_regular.ttf") format("truetype");
+}
+
+
+body {
+    border: 0;
+    padding: 0;
+    background: no-repeat url("../img/fond_contact.png") center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 66px;
+    margin-top: 4%;
+}
+
+h1 {
+    font-family: slkscrb, serif;
+    width: 20vw;
+    border-bottom: solid black;
+}
+
+h2 {
+    font-family: arimob, serif;
+    font-size: 36px;
+}
+
+.profil_picture {
+    position: fixed;
+    width: 22%;
+    top: 27%;
+    left: 16%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+    margin-left: 13%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+}
+
+.blue_circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #148AA6;
+    margin-right: 5px;
+}
+
+.white_circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;
+    margin-right: 5px;
+}
+
+.circle_pack {
+    display: flex;
+    margin: 9px 0 9px 0;
+}
+
+.skill_rate {
+    display: flex;
+    font-family: arimor, serif;
+    font-size: 25px;
+}
+
+.point_skill {
+    align-self: center;
+    margin-left: 17px;
+}

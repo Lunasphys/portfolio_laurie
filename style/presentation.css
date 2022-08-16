@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'slkscrb';
+    src: url("../slkscr.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'arimob';
+    src: url("../arimo_bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'arimor';
+    src: url("../arimo_regular.ttf") format("truetype");
+}
+
 body {
     border: 0;
     padding: 0;
@@ -15,17 +30,28 @@ margin: 4%;
     width: 12%;
 }
 
+.liens {
+    display: flex;
+}
+
+.cercle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .ease {
     background-color: white;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: -10px;
-    height: 10px;
-    -webkit-animation: anim 4s 500ms infinite normal ease-out forwards;
-    animation: anim 4s 500ms infinite normal ease-out forwards;
+    height: 7px;
+    -webkit-animation: anim 4s 500ms normal ease-out forwards;
+    animation: anim 4s 500ms normal ease-out forwards;
 }
-
 @-webkit-keyframes anim{
     0% {width: 0px;}
     100% {width: 250px;}
@@ -33,15 +59,60 @@ margin: 4%;
 
 @keyframes anim{
     0% {width: 0px;}
-    100% {width: 1400px;}
+    100% {width: 1600px;}
 
 }
 
-#cercle {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background: white;
-    margin-top: auto;
-    margin-bottom: auto;
+.img_name {
+    position: absolute;
+    align-self: center;
+    left: 8%;
+    top: 11.5%;
+    width: 38%;
+  }
+
+.txt_zone {
+    margin: 5% 15%;
+    text-align: center;
+
+}
+
+.zone_sup {
+    display: flex;
+    justify-content: center;
+}
+
+.zone_sup p {
+    font-family: arimor, serif;
+    font-size: 25px;
+    width: 30%;
+    color: black;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.zone_sup h1 {
+    font-family: slkscrb, serif;
+    font-size: 67px;
+    width: 25%;
+    margin: 0;
+    align-self: center;
+}
+
+.zone_bas {
+    font-family: arimor, serif;
+    font-size: 25px;
+    width: 55%;
+    color: black;
+    margin: auto;
+    text-align: justify;
+}
+
+.bold_sentence {
+    font-family: arimob, serif;
+    font-size: 35px;
+    width: 55%;
+    color: black;
+    margin: 5% auto;
+    text-align: justify;
 }
