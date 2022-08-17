@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'slkscrb';
+    src: url("../slkscr.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'arimob';
+    src: url("../arimo_bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'arimor';
+    src: url("../arimo_regular.ttf") format("truetype");
+}
+
+body {
+    border: 0;
+    padding: 0;
+    background: no-repeat url("../img/fond_projets.png") center center fixed;
+    background-size: cover;
+    color: white;
+}
+.title {
+    margin: 10vh 0 8vh 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: slkscrb, serif;
+    font-size: 125px;
+}
+
+h2 {
+    font-family: slkscrb, serif;
+    font-size: 70px;
+}
+
+
+.projects_case {
+    display: flex;
+    justify-content: center;
+}
+
+.pres_projet {
+    margin: 0px 25px 0px 25px;
+    width: 22vh;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 130vh;
+    height: 70vh;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 100px;
+    padding: 8px 0;
+    position: fixed;
+    opacity:0.95;
+    left: 18.2vw;
+    top: 14vh;
+    z-index: 1;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:0.95 ;}
+}
+.title_popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+}
+
+
+.first_square {
+    display: flex;
+    justify-content: center;
+    gap: 14vh;
+}
+
+.second_square {
+    display: flex;
+    justify-content: center;
+    font-family: arimob, serif;
+    font-size: 23px;
+    gap: 14vh;
+    margin-left: 20vh;
+}
+
+
+.text_pres {
+    width: 90vh;
+    font-family: arimob, serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.text_pres_hangman {
+    width: 90vh;
+    font-family: arimob, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.github_link {
+    font-family: arimob, serif;
+    font-size: 23px;
+}
+
+.github_link p {
+    margin-bottom: 8px;
+}
+
+.icon_gith {
+    width: 7vh;
+    opacity: 1;
+}
+
+.logo_tidder {
+    width: 5%
+}
+
+.tidder_img {
+    width: 70vh;
+}
+
+.logo {
+    width: 15%;
+}
+
+.technologies {
+    margin-top: 5%;
+}
+
+.redproject_img {
+    width: 90vh;
+}
+
+#img_hangman {
+    width: 60vh;
+}
+
+.logo_one {
+    width: 32%;
+}
