@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'slkscrb';
+    src: url("../slkscr.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'arimob';
+    src: url("../arimo_bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'arimor';
+    src: url("../arimo_regular.ttf") format("truetype");
+}
+
+
+body {
+    border: 0;
+    padding: 0;
+    background: no-repeat url("../img/fond_stage.png") center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.title {
+    width: 50%;
+    text-align-last: center;
+    margin-top: 4%;
+}
+
+h1 {
+    font-family: slkscrb, serif;
+    font-size: 109px;
+    margin: 0;
+}
+
+.lien_pdf {
+    width: 50vw;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    width: 35vh;
+    height: 30px;
+    display: flex;
+    gap: 12vw;
+}
+.arrow:before,
+.arrow:after {
+    content: "";
+    flex: 1;
+    margin: 0 5px;
+    background: black;
+    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    animation: a3 .5s infinite alternate;
+}
+
+.arrow:after {
+    --s:-1;
+}
+@keyframes a3 {
+    0%  {transform: scaleX(var(--s,1)) translate(-4px)}
+    100%{transform: scaleX(var(--s,1)) translate( 4px)}
+}
+
+.download {
+    text-decoration: none;
+    color: white;
+    font-family: arimob, serif;
+}
+
+.logo_pdf{
+    pointer-events: none;
+    width: 5%;
+    top: 40%;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 25.5vw;
+    top: 45.5vh;
+    text-align: center;
+
+}
+
+.lien_pdf:hover .logo_pdf {
+    opacity: 0.3;
+}
+
+.lien_pdf:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #148AA6;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.zone_text {
+    color: black;
+    margin: 10vh 64vw 0 11vw;
+}
+
+h2 {
+    font-family: arimob, serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+.lieux {
+    font-family: arimor, serif;
+    font-size: 10px;
+    margin: 0;
+}
+
+.explication {
+    font-family: arimor, serif;
+    font-size: 14px;
+    margin: 0;
+}

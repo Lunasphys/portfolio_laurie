@@ -13,6 +13,11 @@
     src: url("../arimo_regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: 'arcade';
+    src: url("../arimo_regular.ttf") format("truetype");
+}
+
 body {
     border: 0;
     padding: 0;
@@ -68,7 +73,7 @@ h2 {
     padding: 8px 0;
     position: fixed;
     opacity:0.95;
-    left: 18.2vw;
+    left: 18.25vw;
     top: 14vh;
     z-index: 1;
 }
