@@ -139,7 +139,7 @@ li {
 
 .bottom_cross {
     position: absolute;
-    bottom: 10px;
+    bottom: 7px;
 }
 
 .left_cross {
@@ -212,7 +212,7 @@ li {
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 15px;
-    top: 100px;
+    top: 105px;
     right: 110px;
     color: white;
     font-family: slkscrb, serif;
