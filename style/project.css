@@ -32,7 +32,7 @@ body {
 
 h1 {
     font-family: slkscrb, serif;
-    font-size: 125px;
+    font-size: 100px;
 }
 
 h2 {
@@ -191,17 +191,17 @@ h2 {
 
 .right_cross {
     position: absolute;
-    left: 35px;
+    left: 22%;
 }
 
 .bottom_cross {
     position: absolute;
-    bottom: 10px;
+    bottom: 22%;
 }
 
 .left_cross {
     position: absolute;
-    right: 130px;
+    right: 100%;
 }
 
 .cross_up:hover {
@@ -251,8 +251,8 @@ h2 {
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 15px;
-    top: 60px;
-    left: 115px;
+    top: 40%;
+    left: 80%;
     color: white;
     font-family: slkscrb, serif;
 
@@ -269,8 +269,8 @@ h2 {
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 15px;
-    top: 100px;
-    right: 110px;
+    top: 65%;
+    right: 15%;
     color: white;
     font-family: slkscrb, serif;
 
@@ -287,8 +287,8 @@ h2 {
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 15px;
-    top: 60px;
-    right: 115px;
+    top: 40%;
+    right: 85%;
     color: white;
     font-family: slkscrb, serif;
 

@@ -22,7 +22,7 @@ body {
 }
 
 .navigation {
-margin: 4%;
+margin: 4% 4% 0 4%;
     display: flex;
 }
 
@@ -71,7 +71,7 @@ margin: 4%;
   }
 
 .txt_zone {
-    margin: 5% 15%;
+    margin: 3% 4% 5% 3%;;
     text-align: center;
 
 }
@@ -83,7 +83,7 @@ margin: 4%;
 
 .zone_sup p {
     font-family: arimor, serif;
-    font-size: 25px;
+    font-size: 18px;
     width: 30%;
     color: black;
     text-align: justify;
@@ -100,7 +100,7 @@ margin: 4%;
 
 .zone_bas {
     font-family: arimor, serif;
-    font-size: 25px;
+    font-size: 18px;
     width: 55%;
     color: black;
     margin: auto;
